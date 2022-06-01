@@ -30,7 +30,6 @@ def square_sum (numbers):
         sum += i*i
     return sum
 
-
 print(square_sum([1,2]))
 print(square_sum([0, 3, 4, 5]))
 ```
