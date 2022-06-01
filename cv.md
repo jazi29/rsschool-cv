@@ -9,7 +9,7 @@
 [LinkedIn](https://www.linkedin.com/in/29jazi/)
 
 ### About myself:
-
+***
 >Since childhood, I loved the computer and I present my future only with them. I love to study and self-develop, I always strive to learn something new and work in a team together and responsible.
 
 ### Skills and abilities:
