@@ -1,1 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body{
+    padding-top: 20px;
+    font-family: 'Inter', sans-serif;
+    background-color: #ded6d6;
+}
+h1, h2, h3, h4, h5, p{
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    width: 820px;
+    height: 885px;
+    border: 1px solid rgb(47, 44, 44);
+    /* box-shadow: 10px 10px 10px #131414; */
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+header{
+    width: 820px;
+    height: 50px;
+    background-color: black;
+}
+.image{
+    padding-top: 15px;
+    text-align: center;
+}
+.image > img{
+    margin-top: -15px;
+    width: 295px;
+    height: 300px;
+}
+.nav-li{
+    display: inline-block;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+.nav-li a{
+    text-decoration: none;
+    color: rgb(209, 200, 200);
+    font-size: small;
+}
+.nav-li a:hover{
+    color: white;
+    transition: 0.3s;
+}
+.inform{
+    display: flex;
+    flex-direction: column;
+    padding-left: 25px;
+    padding-top: 10px;
+    gap: 15px;
+}
+.social {
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 5px;
+}
+.social a{
+    text-decoration: none;
+}
+.social > a > img{
+    padding: 5px;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+}
+.social > a > img:hover{
+    opacity: 70%;
+    transition: 0.3s;
+}
+/* ______________________________________________________ */
+main{
+    display: flex;
+    flex-direction: row;
+}
+.first-block, .second-block{
+    width: 850px;
+    height: 800px;
+}
+.first-block{
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    background-color: #131414;;
+    border: 12px solid white;
+    color: white;
+}
+.ul-contact{
+    padding: 0;
+    margin: 0;
+}
+.ul-contact li{
+    list-style-type: none;
+}
+.second-block{
+    padding: 5px 10px 10px 25px;
+    display: flex;
+    flex-direction: column;
+    width: 530px;
+    background-color:white;
+}
+.hr-title{
+    margin-left: 1px;
+    width: 400px;
+    height: 2px;
+    background-color: black;
+}
+.languages{
+    padding-top: 50px;
+    margin-left: -110px;
+}
+.language{
+    padding-bottom: 5px;
+}
+.skill{
+    display: flex;
+    align-items: center;
+}
+.skill-container {
+  width: 65%;
+  background-color: #ddd;
+}
+.skills {
+  text-align: left;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: black;
+}
+.skill-ul{
+    padding: 0;
+    margin: 0 ;
+}
+.skill-ul li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.html {width: 90%; background-color: #131414;;}
+.python {width: 80%; background-color: #131414;;}
+.git {width: 70%; background-color: #131414;;}
+.c {width: 75%; background-color: #131414;;}
+.js {width: 70%; background-color: #131414;;}
 
+.code-txt{
+    background-color: #131414;
+    color: white;
+    padding: 0px 25px 0px 25px;
+    width: fit-content;
+}
+.purple{
+    color: #b294bb;
+}
+.orange{
+    color: #de935f;
+}
+.green{
+    color: #b5bd68;
+}
+.projects{
+    display: flex;
+    gap: 15px;
+    text-align: center;
+}
+.projects > div{
+    width: 130px;
+    height: 120px;
+}
+.projects div:hover{
+    transform: scale(1.05);
+    opacity: 80%;
+    transition: 0.3s;
+}
+.projects img{
+    width: 125px;
+    height: 115px;
+    border: 1px solid black;
+    border-radius: 5%;
+}
+.projects a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    display: flex;
+    width: 820px;
+    height: 33px;
+    color: white;
+    /* background-color: #131414; */
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(209, 200, 200);
+}
+footer a:hover{
+    color: white;
+    transition: 0.3s;
+}
+.logo{
+    width: 65px;
+    height: 28px;
+    margin-top: 5px;
+}
+.logo:hover{
+    opacity: 70%;
+    transition: 0.3s;
+}
